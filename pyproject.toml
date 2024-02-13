@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "namecheap-dns"
+version = "0.1.0"
+description = "Export/import DNS records from/to Namecheap"
+authors = ["Arvid Berndtsson <arvid@berndtsson.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+lxml = "^5.1.0"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
